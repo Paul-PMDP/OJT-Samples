@@ -1,0 +1,165 @@
+:root{
+  color: #1a1c20;
+  background-color: #eeeff1;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: var(color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.akoto{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50 50px;
+  margin: 50px ;
+  grid-gap: 40px;
+
+}
+
+.akoto .text {
+  flex: 5;
+}
+
+.akoto .text h2 {
+
+  font-size: 45px;
+}
+
+.akoto .Headshot img{
+  width: 200px;
+  border-radius: 40%;
+}
+
+.cert{
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50 50px;
+  margin: 50px ;
+  grid-gap: 40px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.cert .Google img{
+  width: 500px;
+  background-color: #d3d3d3;
+
+}
+
+.cert .Intuit img{
+  width: 500px;
+  background-color: #d3d3d3;
+}
+
+
+nav{
+  background-image: url("../images/LD.jpg");
+  background-size: 800px 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 80px;
+}
+
+main .CertHead {
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 80px;
+}
+
+main .Coursera {
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 150px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+main .pw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 80px;
+}
+
+main .lp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 10 250px;
+  height: 100px;
+  margin-top: 100px;
+  grid-gap: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+main .workimg img{width: 500px;}
+
+footer{
+  margin-top: 130px;
+  background-color: #d3d3d3;
+  align-items: center;
+  text-align: center;
+}
+
+/* NOTE:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
